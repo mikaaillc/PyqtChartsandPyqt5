@@ -1,11 +1,9 @@
 from PyQt5 import uic,QtCore
 from PyQt5.QtWidgets import QApplication, QMainWindow,QWidget,QVBoxLayout
-import sys
 from PyQt5.QtChart import QChart, QChartView, QLineSeries, QChartView, QPieSeries, QPieSlice
 from PyQt5.QtCore import QPointF
 from PyQt5.QtGui import QPainter, QPen
 from PyQt5.QtCore import Qt
-import matplotlib.pyplot as plt
 import pandas as pd
 
 datafreamraw = pd.read_csv('cleaned_generation.csv')
